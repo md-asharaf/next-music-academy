@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "title": "Learn JavaScript",
+            "description": "Comprehensive guide to learn JavaScript programming language.",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+        },
+        {
+            "title": "CSS Tricks",
+            "description": "A collection of tips and tricks to master CSS and web design.",
+            "link": "https://css-tricks.com/"
+        },
+        {
+            "title": "React Documentation",
+            "description": "Official documentation for React, a JavaScript library for building user interfaces.",
+            "link": "https://reactjs.org/docs/getting-started.html"
+        },
+        {
+            "title": "Node.js Guide",
+            "description": "Learn about Node.js, a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+            "link": "https://nodejs.dev/learn"
+        },
+        {
+            "title": "Express.js",
+            "description": "Fast, unopinionated, minimalist web framework for Node.js.",
+            "link": "https://expressjs.com/"
+        },
+        {
+            "title": "AWS Documentation",
+            "description": "Official documentation and resources to learn about Amazon Web Services (AWS).",
+            "link": "https://docs.aws.amazon.com/"
+        }
+    ]
+}
