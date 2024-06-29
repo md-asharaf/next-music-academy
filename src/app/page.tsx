@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Hero from "@/components/Hero";
+import MovingCards from "@/components/MovingCards";
 import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
     return (
@@ -7,6 +8,7 @@ export default function Home() {
             <Hero />
             <FeaturedCourses />
             <WhyChooseUs />
+            <MovingCards />
         </main>
     );
 }

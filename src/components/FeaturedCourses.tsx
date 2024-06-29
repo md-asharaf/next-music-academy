@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import courseData from "../data/music_courses.json";
+import {courses} from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 interface Course {
     id: number;
@@ -12,7 +12,7 @@ interface Course {
     isFeatured: boolean;
 }
 const FeaturedCourses = () => {
-    const featuredCourses: Course[] = courseData.courses.filter(
+    const featuredCourses: Course[] = courses.filter(
         (course) => course.isFeatured
     );
     return (
