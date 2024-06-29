@@ -1,0 +1,34 @@
+{
+    "instructors": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "designation": "Software Engineer",
+            "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
+        },
+        {
+            "id": 2,
+            "name": "Bob Smith",
+            "designation": "Project Manager",
+            "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+        },
+        {
+            "id": 3,
+            "name": "Catherine Lee",
+            "designation": "UX Designer",
+            "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+        },
+        {
+            "id": 4,
+            "name": "Emma Wilson",
+            "designation": "Data Scientist",
+            "image": "https://images.unsplash.com/photo-1598550880863-4e8aa3d0edb4?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 5,
+            "name": "David Brown",
+            "designation": "DevOps Engineer",
+            "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+        }
+    ]
+}
