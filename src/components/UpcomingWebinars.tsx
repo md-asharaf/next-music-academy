@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { items } from "@/data/music_webinars.json";
+import data from "@/data/music_webinars.json";
 import { HoverEffect } from "./ui/card-hover-effect";
 const UpcomingWebinars = () => {
     return (
@@ -15,7 +15,7 @@ const UpcomingWebinars = () => {
                     </p>
                 </div>
                 <div className="mt-10">
-                    <HoverEffect items={items} />
+                    <HoverEffect items={data.items} />
                 </div>
                 <div className="mt-10 text-center">
                     <Link

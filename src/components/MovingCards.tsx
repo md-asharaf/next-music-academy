@@ -1,6 +1,6 @@
 "use client";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-import { cards } from "@/data/testimonial_cards.json";
+import data from "@/data/testimonial_cards.json";
 const MovingCards = () => {
     return (
         <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
@@ -10,7 +10,7 @@ const MovingCards = () => {
             <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-center">
                     <InfiniteMovingCards
-                        items={cards}
+                        items={data.cards}
                         speed="slow"
                         direction="right"
                     />

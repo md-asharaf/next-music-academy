@@ -2,7 +2,7 @@
 
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { WavyBackground } from "./ui/wavy-background";
-import { instructors } from "@/data/music_instructors.json";
+import data from "@/data/music_instructors.json";
 const Instructors = () => {
     return (
         <div className="relative h-[40rem] overflow-hidden flex items-center justify-center">
@@ -15,7 +15,7 @@ const Instructors = () => {
                     musical journey
                 </p>
                 <div className="flex flex-row items-center justify-center mb-10 w-full">
-                    <AnimatedTooltip items={instructors} />
+                    <AnimatedTooltip items={data.instructors} />
                 </div>
             </WavyBackground>
         </div>
