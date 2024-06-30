@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Instructors from "@/components/Instructors";
 import MovingCards from "@/components/MovingCards";
