@@ -2,7 +2,7 @@
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { Meteors } from "@/components/ui/meteors";
 import { FormEvent, useState } from "react";
-const page = () => {
+const Contact: React.FC = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -53,4 +53,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Contact;

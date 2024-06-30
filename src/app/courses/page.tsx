@@ -3,7 +3,7 @@ import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import { courses } from "@/data/music_courses.json";
-const page = () => {
+const Courses = () => {
     return (
         <div className="min-h-screen bg-black py-12 pt-36">
             <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
@@ -11,7 +11,7 @@ const page = () => {
             </h1>
             <div className="flex flex-wrap justify-center">
                 {courses.map((course) => (
-                    <CardContainer className="inter-var m-4">
+                    <CardContainer key={course.id} className="inter-var m-4">
                         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
@@ -61,4 +61,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Courses;
